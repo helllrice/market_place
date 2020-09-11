@@ -28,8 +28,12 @@ body {
   color: #f9fbfe;
   text-decoration: none
 }
+.text_link {
+  padding-left: 30px;
+  font-weight: 900
+}
 .header__contacts {
-  font-weight: 900;
+  font-weight: 600;
   padding: 20px 0 0 18px
 }
 .header__nav__ul-li {
@@ -38,4 +42,71 @@ body {
 .header__nav__ul-link {
   color: #f9fbfe;
   text-decoration: none
+}
+.header__img {
+  padding: 20px 18px 10px 18px
+}
+.header__box-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background-color: #fff;
+  color: #f9fbfe;
+  border-bottom: 1px solid #ededed
+}
+.header__categories {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 14px
+}
+.header__categories-menu {
+  padding-top: 5px;
+  padding-left: 10px;
+  color: #000;
+  font-weight: 900
+}
+.fa-bars {
+  font-size: 25px;
+  color: #000
+}
+.header__categories-menu:hover {
+  color: #00f
+}
+.header__search {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+.search {
+  width: 580px;
+  height: 40px;
+  border: none;
+  outline: 0;
+  background-color: #f2f2f2;
+  padding: 15px
+}
+.search__img {
+  position: absolute;
+  top: 20px;
+  right: 15px
+}
+.pintogram__img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  padding-left: 10px
+}
+.header__pintogram {
+  padding-top: 10px
 }

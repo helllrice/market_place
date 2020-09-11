@@ -3,13 +3,24 @@
     <div class="container">
         <div class="header__box">
             <div class="header__item">
-                {% include '../../components/logo/logo.htm' %}
+                <div class="header__img">{% include '../../components/logo/logo.htm' %}</div>
             </div>
             <div class="header__item">
                 <div class="header__nav">{% include '../../components/navigation/nav.htm' %}</div>
             </div>
             <div class="header__item">
                 <div class="header__contacts">{% include '../../components/contacts/contacts.htm' %}</div>
+            </div>
+        </div>
+        <div class="header__box-two">
+            <div class="header__item-two">
+                {% include '../../components/categories/categories.htm' %}
+            </div>
+            <div class="header__item-two">
+                {% include '../../components/search/search.htm' %}
+            </div>
+            <div class="header__item-two">
+                {% include '../../components/pictogram/pictogram.htm' %}
             </div>
         </div>
     </div>
